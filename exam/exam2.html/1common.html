@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="submits()">button</button>
+    
+</body>
+<script>
+    function submits() {
+        let a = [23,12,4,6,9,7];
+let b = [12,23,17,18,1,6,4];
+  let common = [];
+
+  for (let i= 0; i< a.length; i++) {
+    for (let j= 0; j <b.length; j++) {
+      if (a[i] == b[j]) {
+        common.push(a[i]);
+
+     }
+
+     }
+
+  }
+  console.log(common)
+
+}
+
+
+
+</script>
+
+</html>

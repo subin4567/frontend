@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    // 1
+    // let amount=[35,50,60,70,345,345,890]
+    // let low=amount.filter(x=>x<100)
+    // console.log(low)
+
+    // 2
+    // let number=[1,23,34,35,36,7]
+    // let odd=number.filter(x=>x%2!=0)
+    // console.log(odd)
+
+            // REDUCE\\
+    // 3
+
+//     let amount=[23,56,89,90,25]
+//     let totalam=amount.reduce((total,el)=>total+el)
+//     console.log(totalam)
+
+    
+let data = [["a", "b", "c"], ["c", "d", "f"], ["d", "f", "g"]];
+let singleArray = [];
+
+for (let i = 0; i < data.length; i++) {
+  for (let j = 0; j < data[i].length; j++) {
+    singleArray.push(data[i][j]);
+  }
+}
+
+console.log(singleArray);      
+
+</script>
+
+</html>

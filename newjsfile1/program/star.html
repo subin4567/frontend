@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="sub()">star</button>
+    
+</body>
+<script>
+
+// function submits(){
+//     var a=parseInt(prompt ("enter your number"))
+//     var b=""
+//     for(let i=1;i<=a;i++){
+//         b+="*"
+//         console.log(b)
+//     }
+
+// }
+
+
+                        // nestedfor \\
+
+function sub(){
+    let y =parseInt(prompt("enter your number"))
+  for (let i = 1; i <= y; i++) {
+    let row = "";
+    for (let j = 1; j <= i; j++) {
+      row += "*";
+    }
+    console.log(row);
+  }
+  
+}
+</script>
+</html>

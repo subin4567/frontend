@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+</head>
+<body>
+    <button id="btn1">click</button>
+    <button id="btn2">dblclick</button>
+    <!-- <p>i am a pet lover</p> -->
+    <h1>we are from india</h1>
+     <h2>we are from china</h2> 
+</body>
+<script>
+//     $(document).ready(function(){
+//   $("#btn1").click(function(){
+//     $("p").hide();
+//   });
+//   $("#btn2").click(function(){
+//     $("p").show();
+//   });
+// });
+$(document).ready(function(){
+  $("#btn1").click(function(){
+    $("h1").toggle();
+  });
+  $("#btn2").dblclick(function(){
+    $("h2").toggle();
+  });
+});
+</script>
+</html>
+

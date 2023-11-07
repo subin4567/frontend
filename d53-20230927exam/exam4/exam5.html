@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+</head>
+<body>
+    
+   <input id="maxx" type="text"> 
+   <input id="maxx1" type="text">
+   <button>btn</button>
+   <h1 id="maxx2">my</h1>
+</body>
+<script>
+    $(document).ready(function(){
+        $("button").click(function(){
+      a=$("#maxx").val()
+      b=$("#maxx1").val()
+      $("#maxx2").text(a+b)
+        })
+    })
+</script>
+</html>

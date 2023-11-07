@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding:0px
+}
+@media only screen and (max-width:992px  ){
+    body{
+        background-color: brown;
+        
+    }
+    .width{
+        width:24.8%;
+        height:100vh;
+        display: inline-block;
+    }
+    .maxx{
+        width:100%;
+        border: 3px solid blue;
+    }
+    .maxx1{
+        background-color: green;
+    }
+    .maxx2{
+        background-color: yellow;
+    }
+    .maxx3{
+        background-color:pink;
+    }
+    .maxx4{
+        background-color: orange;
+    }
+
+}

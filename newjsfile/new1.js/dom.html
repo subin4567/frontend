@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 1 -->
+    <!-- <p id="maxx">
+        i am human
+    </p> -->
+
+    <!-- 2 -->
+    <!-- <h1 id="max">i am rich</h1>
+    <button onclick="submit()">click</button> -->
+
+    <!-- 3 -->
+    <!-- <input  id="text1"  type="text">
+    <input  id="text2"  type="text">
+    <p id="text3"></p>
+    <button onclick="submits()">click me</button> -->
+
+    <!-- 4
+    <input  id="text1"  type="number">
+    <input  id="text2"  type="number">
+    <p id="text3"></p>
+    <button onclick="submits()">click me</button>  -->
+
+    <input type="text" id="num1"><br><br>
+
+     <input type="text" id="num2"><br><br>
+
+     <button id="add" onclick="handleclick()">Answer</button><br>
+     
+       <p id="para"></p>
+
+    
+</body>
+<script>
+    // 1
+    // var para =document.getElementById("maxx")
+    // console.log(para.textContent)
+    // para.textContent="i am bird"
+
+    // 2
+    // function submit(){
+    // var news =document.getElementById("max")
+    // console.log(news.textContent)
+    // news.textContent="i am poor"
+    // }
+
+    // 3
+    // var maxx=document.getElementById("text1")
+    // var maxx1=document.getElementById("text2")
+    // function submits(){
+    //     text3.textContent=maxx.value+maxx1.value
+
+    // }
+
+    // 4\
+    
+   
+
+    
+        function handleclick(){
+
+       var a = document.getElementById('num1').value;
+       var b= document.getElementById('num2').value;
+       var c = parseInt(a) + parseInt(b);
+       document.getElementById("para").innerHTML = c ;
+        }
+</script>
+
+
+
+ 
+
+</html>

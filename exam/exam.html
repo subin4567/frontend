@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <!-- 1 -->
+    <!-- <input id="text1"  type="text">
+    <button id="text2">click</button> -->
+
+    <!-- 2  -->
+    <!-- <button id="mybutton">click</button>
+    <button id="mybutton1">click</button>
+    <button id="mybutton2">click</button> -->
+
+    <!-- 3  -->
+    <!-- 4 -->
+
+
+
+    
+</body>
+<script>
+    // 1
+    // let a=10
+    // $(document).ready(function(){
+    //     $("#text2").click(function(){
+    //         sold=$("#text1").val()
+    //         if(sold>a){
+    //             alert("greater than 10")
+    //         }
+    //         else{
+    //             alert("less than 10")
+    //         }
+    //     })
+    // })
+
+// 2
+// $(document).ready(function(){
+//     $("#mybutton").click(function(){
+//         alert("i am subin")
+//     })
+// })
+
+// 3
+
+// let a=[1,2,3,4,5,6,7]
+// sum=0
+// for(i=0;i<a.length;i++){
+// sum+=a[i]
+// }
+// console.log(sum)
+
+// 4
+
+// let a=[1,2,3,4,5,6,7,8]
+// for(i=0;i<a.length;i++){
+//     if(a[i]%2==0){
+//         console.log("even numbers",a[i])
+//     }
+//     else{
+//         console.log("odd numbers",a[i])
+
+//     }
+// }
+
+// 5
+
+// let a=[1,2,3,4,1,5,2]
+// dup=[]
+// for(i=0;i<a.length;i++){
+//     for(j=i+1;j<a.length;j++)
+//     if(a[i]==a[j]){
+//     // && !dup.includes(a[i])
+//     dup.push( a[i])
+//     console.log(a[i])
+// }
+// }
+// console.log(dup)
+
+
+// let n = 5;  
+  
+//
+
+// let a=5;
+// function factorial(a){
+//     sum=1;
+//     if(a==0)
+//     return 1;
+// for (i=1;i<=a;i++)
+// sum=sum*i;
+// return sum;
+
+// }
+// console.log(factorial(a));
+// function submit(){
+//     var a=5
+//     var add=1
+//     for(i=1;i<=5;i++){
+//         add=add*i
+//     }
+//     console.log(add)
+// }
+
+
+// let a = [1 ,2,3,2];
+// let b = 2;
+// let c = [];
+
+// for ( i = 0; i < a.length; i++) {
+//   if (a[i] == b) {
+//     a.splice(i,1)
+//     a.push("*")
+//   }
+// }
+  
+// console.log(a+c); 
+// const a=[1,2,2,3];
+// const news =a.slice(1,3)
+
+
+
+// // let a=[1,2,2,3];
+// const number=[1,2,2,3];
+// const num=number.slice(1)
+
+
+// var originalArray = [1, 2, 2, 3];
+// var newArray = [];
+
+// for (var i = 0; i < originalArray.length; i++) {
+//   if (originalArray[i] === 2 && originalArray[i + 1] === 2) {
+//     newArray.push(1, 3, '*', '*');
+//     i++; // Skip the next '2'
+//   } else {
+//     newArray.push(originalArray[i]);
+//   }
+// }
+
+
+let a=[1,2,3,4,2,5,]
+let b=2
+let c=[]
+for(i=0;i<a.length;i++){
+    if (a[i]!=b){
+        c.push(a[i])
+    }
+}
+let length=a.length-c.length
+for(i=0;i<length;i++){
+    c.push("*")
+}
+console.log(c)
+
+
+
+
+
+
+
+
+
+
+</script>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>  
+     <script> 
+     $(document).ready(function(){
+        $("button").click(function(){
+          
+          $("#div1").delay(800).fadeIn();
+          $("#div2").delay(2000).fadeIn();
+          $("#div3").delay(4000).fadeIn();
+        });
+      });
+    </script>
+</head>
+<body>
+    <button>btn</button>
+ <div id="div1" style="display:none"><p>i am subin</p></div>
+ <div id="div2" style="display:none"><p>i am 25 years old</p></div>
+<div id="div3" style="display:none"><p>i am from angercoil</p></div>
+</body>
+
+  
+</html>

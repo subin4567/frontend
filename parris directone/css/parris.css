@@ -1,0 +1,381 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+/* homepage css  */
+.container-90{
+    width: 90%;
+    margin: 0 auto;
+}
+/* header css start  */
+.overall_img{
+    background-image: url("/home/subin/karka/parris directone/img/hd-new-york-background-8aghjibyjihgblzk.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover;
+   height:100vh;
+   background-attachment: fixed;
+   z-index: 0;
+}
+
+.navi{
+    display:flex;
+}
+ul li:last-child {
+    margin-left: 20%;
+  }
+  .anchor{width:20%;
+  /* border:3px solid red; */
+  display:flex
+
+}
+.maxx{
+    margin-top: 25px;
+    color:red;
+    
+}
+.new{
+    font-size: 64px !important;
+    margin-top: 200px !important;
+}
+.cardmax{
+    margin-top: 250px !important;
+    width:84% !important;
+    /* border:3px solid red; */
+    /* padding:10px */
+    /* background-color: beige; */
+
+}
+.slides{
+    width:16% !important;
+    /* width: 18rem !important; */
+    border-radius: 5px;
+    height:25vh !important;
+    margin-top: 10px !important;
+    /* padding:10px !important */
+}
+.overall{
+    width: 100%;
+    background: white;
+    margin-top: 19% !important;
+    /* border:3px solid red !important; */
+    border-color: brown !important
+}
+.imgback{
+    width:100%;
+    height: 350px;
+    
+}
+.cards{
+    margin-bottom:87px !important;
+    margin-top: -65px !important;
+}
+.cards1{
+    /* margin-bottom:87px !important; */
+    margin-top: 35px !important;
+}
+.font5{
+    
+    margin-left: 49px !important;
+    
+    font-size: 50px;
+}
+.font1{
+    font-size: 35px;
+    position:absolute;
+    bottom:258px;
+    right:129px !important;
+    border:2px solid white;
+    padding:7px;
+    border-radius: 50%;
+    background-color: red;
+    /* margin-left:100px !important */
+    
+}
+.big_img{
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.top{
+    height:263px !important
+}
+.bottom{
+    height:263px
+}
+.section2{
+    margin-top: 100px !important;
+}
+.japan_img{
+    height:306px !important;
+    width:100% !important
+}
+.red_tag{
+    margin-top: 130px;
+}
+
+.second{
+    height:258px
+}
+
+.red_button{
+    margin-top: 100px !important;
+    width:75%;
+    background-color: black;
+    border:none;
+    height:50px
+}
+.section3{
+    margin-top: 100px;
+}
+.section4{
+    margin-top: 100px;
+   
+}
+
+.section5{
+    margin-top: 150px;
+   
+}
+.image_five{
+    background-image: url("/home/subin/karka/parris directone/img/about.jpg.webp");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height:900px;
+    /* width: 100% !important; */
+}
+.fontw{
+    font-weight: 700 !important;
+    font-size: 43px !important;
+}
+.marginp{
+    margin-top: 110px;
+}
+.big_card{
+    color:#999999
+}
+.maxx1{
+    width:286px !important;
+    height:263px !important;
+    position:relative
+}
+.maxx11{
+    /* width:286px !important; */
+    height:263px !important;
+    position:relative;
+    width:100%
+}
+.maxxp5{
+    margin-top: 130px !important;
+}
+
+
+.slides{
+    width: 25% !important;;
+    height: 30vh !important;
+
+}
+.section7{
+    background-image:url(" /home/subin/karka/parris directone/img/curls.png.webp");
+    width:100%;
+    height:450px;
+    background-color: black !important;
+    margin-top: 135px;
+  
+
+}
+
+.position1{
+    position:relative
+}
+
+.section9{
+    margin-top: 120px;
+    background-color: aliceblue;
+}
+/* .card1{
+    width:100% */
+/* } */
+.maxx2{
+    width:100%;
+    height:263px
+}
+.letters{
+    color:#999999
+}
+
+ .audio:hover{
+    background-color:red;
+    color:white
+}
+
+.audio:hover i{
+    background-color:white
+    /* color:white */
+}
+
+
+
+
+.newfont{
+    border:2px solid white;
+    background-color: red;
+    font-size: 75px!important;
+    margin-left: 16px;
+    border-radius: 50px;
+}
+.lastfont{
+    border:2px solid white;
+    background-color: red;
+    font-size: 35px!important;
+    margin-left: 16px;
+    border-radius: 50px;
+
+}
+.letters1{
+  color:rgba(255, 255, 255, 0.7)
+}
+.about{
+    margin-top: 114px!important;
+    
+}
+.black{
+    margin-top:30px !important
+}
+.section11{
+    /* height: 500px; */
+    background-color:#10151c !important;
+    width:100% !important;
+}
+.arrow{
+    /* margin-right: 80px; */
+    margin-top: 30px;
+}
+.last{
+    background-color:#0c1016;
+    height:150px;
+    
+}
+.footer{
+    /* margin-top: 30px; */
+    color:rgba(255,255,255,.5)!important
+
+}
+/* .maxx{
+    width:286px !important;
+    height:263px !important;
+    position:relative
+} */
+.inside{
+    position:relative;
+    color: red !important;
+    bottom: 95px;
+    left:110px;
+    font-size: 100%!important;
+    display:none !important;
+    border: none !important;
+    border-radius: 50%;
+    width: 18% !important;
+    height: 50px !important;
+    border:none
+}
+.maxx1:hover + .inside{
+    display:block !important
+    
+}
+.rogger{
+    width:80px;
+    height:60px;
+    margin-top: 20px;
+    margin-left: 25px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+.scott{
+    margin-right: 105px;
+}
+.older{
+    display:flex;
+    flex-direction: column;
+}
+
+
+/* .maxx3{ */
+    /* margin-right: 10OPX;
+
+} 
+ .totaldown1{
+    position:absolute;
+    z-index: 1;
+    top:300
+/* } */
+
+ .number-card{
+    display: flex;
+}
+.number{
+    background-color: #eaf0f4;
+    padding: 20px;
+    font-size: x-large;
+    color: red;
+    font-weight: 500;
+    /* width:100%; */
+    /* margin-left:65px */
+    /* border:1px solid black; */
+    border-radius:10px;
+    height:160px !important;
+    margin-top:100px !important
+} 
+.number span{
+    color:black
+}
+
+
+
+
+ @media only screen  and (max-width:768px){
+    .card{
+        width:100% !important
+    }
+    /* .cards{
+        margin-bottom:87px !important; 
+         margin-top: -65px !important; 
+        width:100% !important
+        
+    } */
+  
+    .maxx1{
+        /* width: 458px !important; */
+        /* height: 263px !important; */
+        /* position: relative; */
+        width:100% !important
+    }
+    .scott{
+        margin-left:138px !important
+    }
+    .black{
+        /* padding-left:100px; */
+        text-align: center;
+        margin-top: 100px !important;
+    }
+    .font5{
+        margin-left:203px !important
+    }
+    .font1{
+        right:227px !important;
+        color:white !important
+    
+    }
+ }
+
+ @media only screen and  (max-width:576px){
+.font1{
+    right:150px !important;
+    color:green !important
+}
+/* .maxx1{
+    /* width: 475px !important; */
+    /* height: 263px !important; */
+    /* position: relative; */
+} */
+ /* } */

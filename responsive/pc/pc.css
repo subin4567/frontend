@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding:0px
+}
+.width{
+    width:24.8%;
+    height:100vh;
+    display: inline-block;
+}
+.maxx{
+    width:100%;
+    border: 3px solid blue;
+}
+.maxx1{
+    background-color: green;
+}
+.maxx2{
+    background-color: yellow;
+}
+.maxx3{
+    background-color:pink;
+}
+.maxx4{
+    background-color: orange;
+}
+@media only screen and (max-width:1500px){
+    
+    .width{
+        width:32.8%;
+        height:100vh;
+        display: inline-block;
+    }
+    
+}
+@media only screen and (max-width:991px){
+    
+    .width{
+        width:49%;
+        height:100vh;
+        display: inline-block;
+    }
+    
+}
+
+@media only screen and (max-width:775px){
+    
+    .width{
+        width:100%;
+        height:100vh;
+        display: inline-block;
+    }
+    
+}
