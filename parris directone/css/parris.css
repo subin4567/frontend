@@ -17,6 +17,15 @@
    z-index: 0;
 }
 
+.card10{
+    width: 100% !important;
+    height:100% !important
+    }
+    .card11{
+        width: 100% !important;
+        height:560px !important
+    }
+
 .navi{
     display:flex;
 }
@@ -26,6 +35,10 @@ ul li:last-child {
   .anchor{width:20%;
   /* border:3px solid red; */
   display:flex
+
+}
+.top{
+    height:200px !important
 
 }
 .maxx{
@@ -155,7 +168,7 @@ ul li:last-child {
     color:#999999
 }
 .maxx1{
-    width:286px !important;
+    width:100%!important;
     height:263px !important;
     position:relative
 }
@@ -331,30 +344,45 @@ ul li:last-child {
 }
 
 
+@media only screen and (max-width:1240px){
+    .card11{
+       height:630px !important
+    }
+    .font1{
+        bottom: 325px; 
+       right: 87px !important; 
+       /* display:none !important; */
+       /* opacity:0 */
+   
+    }
+   
+    }
+@media only screen and (max-width:992px){
+    .font1{
+            bottom: 325px; 
+           right: 148px !important;
+    }
+    .font5{
+       margin-right:32px !important
+    }
+}
 
 
  @media only screen  and (max-width:768px){
     .card{
         width:100% !important
     }
-    /* .cards{
-        margin-bottom:87px !important; 
-         margin-top: -65px !important; 
-        width:100% !important
-        
-    } */
+    
   
     .maxx1{
-        /* width: 458px !important; */
-        /* height: 263px !important; */
-        /* position: relative; */
+        
         width:100% !important
     }
     .scott{
         margin-left:138px !important
     }
     .black{
-        /* padding-left:100px; */
+        
         text-align: center;
         margin-top: 100px !important;
     }
@@ -367,15 +395,43 @@ ul li:last-child {
     
     }
  }
+ 
 
- @media only screen and  (max-width:576px){
+ @media only screen  and (max-width:578px){
+    .font5{
+        display: block !important;
+        text-align: center !important;
+        margin:0px auto !important
+    }
+    .font1{
+        
+        display: none;
+        opacity: 0;
+    
+
+    }
+ }
+
+ @media only screen  and (max-width:320px){
+    .font5{
+        margin-left:88px !important
+    }
+ }
+
+
+
+
+
+
+
+ /* @media only screen and  (max-width:320px){
 .font1{
     right:150px !important;
-    color:green !important
-}
-/* .maxx1{
-    /* width: 475px !important; */
-    /* height: 263px !important; */
-    /* position: relative; */
-} */
- /* } */
+     /* color:green !important  */
+ /* } 
+  .maxx1{  
+     width: 475px !important; 
+     height: 263px !important; 
+     position: relative;  */
+ /* }   */
+   /* }   */ */
